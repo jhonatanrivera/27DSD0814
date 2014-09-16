@@ -1,0 +1,12 @@
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\WcfAntecedentes\bin\Debug\WcfAntecedentes.dll.config
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\WcfAntecedentes\bin\Debug\WcfAntecedentes.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\WcfAntecedentes\bin\Debug\WcfAntecedentes.pdb
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\WcfAntecedentes\bin\Debug\Entidades.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\WcfAntecedentes\bin\Debug\LogicaNegocios.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\WcfAntecedentes\bin\Debug\AccesoDatos.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\WcfAntecedentes\bin\Debug\Entidades.pdb
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\WcfAntecedentes\bin\Debug\LogicaNegocios.pdb
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\WcfAntecedentes\bin\Debug\AccesoDatos.pdb
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\WcfAntecedentes\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\WcfAntecedentes\obj\Debug\WcfAntecedentes.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\WcfAntecedentes\obj\Debug\WcfAntecedentes.pdb

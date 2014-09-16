@@ -1,0 +1,5 @@
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Recursos\bin\Debug\Recursos.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Recursos\bin\Debug\Recursos.pdb
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Recursos\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Recursos\obj\Debug\Recursos.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Recursos\obj\Debug\Recursos.pdb

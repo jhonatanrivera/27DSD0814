@@ -1,0 +1,20 @@
+﻿@model WebSucamec.Models.ListadoCiudadanoModel
+
+@{
+    ViewBag.Title = "Listado";
+}
+
+<h2>Listado</h2>
+
+<table>
+
+@foreach (
+    Entidades.EntidadCiudadano lista in Model.objListado
+
+    )
+{
+    <tr>
+        <td>@lista.strDNI</td>
+    </tr>
+}
+</table>

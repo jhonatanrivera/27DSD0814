@@ -1,0 +1,168 @@
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\WebSucamec.Tests.dll.config
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\WebSucamec.Tests.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\WebSucamec.Tests.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Net.Http.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Helpers.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Http.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Mvc.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Razor.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.WebPages.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\WebSucamec.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\EntityFramework.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Optimization.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.AspNet.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\WebGrease.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.Core.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OAuth.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OpenId.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Antlr3.Runtime.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\WebSucamec.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Net.Http.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Helpers.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Http.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Mvc.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Razor.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.WebPages.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\EntityFramework.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.AspNet.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.Core.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OAuth.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OpenId.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\obj\Debug\WebSucamec.Tests.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\obj\Debug\WebSucamec.Tests.pdb
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\WebSucamec.Tests.dll.config
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\WebSucamec.Tests.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\WebSucamec.Tests.pdb
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Net.Http.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Http.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Razor.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\WebSucamec.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\EntityFramework.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.AspNet.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\WebGrease.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.Core.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OAuth.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OpenId.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\WebSucamec.pdb
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Net.Http.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Http.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Razor.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\EntityFramework.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.AspNet.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.Core.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OAuth.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OpenId.xml
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\obj\Debug\WebSucamec.Tests.csprojResolveAssemblyReference.cache
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\obj\Debug\WebSucamec.Tests.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\obj\Debug\WebSucamec.Tests.pdb
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Entidades.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\LogicaNegocios.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\AccesoDatos.dll
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Entidades.pdb
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\LogicaNegocios.pdb
+C:\Sistemas Distribuidos\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\AccesoDatos.pdb
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\WebSucamec.Tests.dll.config
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\WebSucamec.Tests.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\WebSucamec.Tests.pdb
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Net.Http.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Http.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Razor.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\WebSucamec.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\EntityFramework.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Entidades.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\LogicaNegocios.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.AspNet.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\WebGrease.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\AccesoDatos.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.Core.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OAuth.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OpenId.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\WebSucamec.pdb
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Net.Http.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Http.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.Razor.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\EntityFramework.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Entidades.pdb
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\LogicaNegocios.pdb
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.AspNet.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\AccesoDatos.pdb
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.Core.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OAuth.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\bin\Debug\DotNetOpenAuth.OpenId.xml
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\obj\Debug\WebSucamec.Tests.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec.Tests\obj\Debug\WebSucamec.Tests.pdb
