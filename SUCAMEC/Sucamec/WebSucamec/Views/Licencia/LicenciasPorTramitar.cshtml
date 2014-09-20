@@ -1,0 +1,61 @@
+﻿@model WebSucamec.Models.LicenciasPorTramitarModel
+
+@{
+    ViewBag.Title = "Licencias Por Tramitar";
+}
+
+@Html.ActionLink("Licencias por tramitar", "LicenciasPorTramitar", "Licencia", null) 
+<b>|</b>
+@Html.ActionLink("Licencias tramitadas", "LicenciasTramitadas", "Licencia", null) 
+<b>|</b>
+@Html.ActionLink("Licencias rechazadas", "LicenciasRechazadas", "Licencia", null) 
+
+
+<h2 style="text-align:center">Licencias Por Tramitar</h2>
+
+<section>
+@using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl })) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <table>
+    <tr>
+        <td>@Html.LabelFor(m => m.DNI)</td>
+        <td>@Html.TextBoxFor(m => m.DNI) <input type="submit" value="Buscar" /></td>
+    </tr>
+    <tr>
+        <td colspan="2">@Html.ValidationMessageFor(m => m.DNI)</td>
+    </tr>
+    <tr>
+        <td colspan="2" style="color:Red"><b>@ViewBag.Mensaje</b></td>
+    </tr>
+    </table>    
+}
+</section>
+
+<table style="width:100%">
+<tr >
+    <td style="width:20%">Cod. Registro</td>
+    <td style="width:15%">Nombre</td>
+    <td style="width:25%">Apellido Paterno</td>
+    <td style="width:20%">Apellido Materno</td>
+    <td style="width:10%">DNI</td>
+    <td style="width:10%">Seleccionar</td>
+</tr>
+
+@foreach (
+    Entidades.EntidadTramite lista in Model.LicenciasPorTramitar
+
+    )
+{
+<tr>
+    <td>@lista.CodTramite</td>    
+    <td>@lista.NombreCiudadano</td>
+    <td>@lista.ApellidoPaternoCiudadano</td>
+    <td>@lista.ApellidoMaternoCiudadano</td>
+    <td>@lista.DNICiudadano</td>
+    <td>@Html.ActionLink("Seleccionar", "ConformidadLicencia", "Licencia", new { IdCodigo = @lista.CodTramite }, null) </td>
+</tr>
+}
+</table> 
+

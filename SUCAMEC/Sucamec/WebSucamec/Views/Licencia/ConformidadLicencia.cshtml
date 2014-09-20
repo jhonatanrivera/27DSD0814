@@ -1,0 +1,160 @@
+﻿@model WebSucamec.Models.LicenciasPorTramitarModel
+@{
+    ViewBag.Title = "Licencias por Tramitar";
+}
+
+@Html.ActionLink("Licencias por tramitar", "LicenciasPorTramitar", "Licencia", null) 
+<b>|</b>
+@Html.ActionLink("Licencias tramitadas", "LicenciasTramitadas", "Licencia", null) 
+<b>|</b>
+@Html.ActionLink("Licencias rechazadas", "LicenciasRechazadas", "Licencia", null) 
+
+<h2 style="text-align:center">Licencias Por Tramitar</h2>
+
+<section>
+@using (Html.BeginForm(null, null, FormMethod.Post, new { name = "Sucamec", id = "Sucamec", enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    @Html.Hidden("hdEstadoJudicial", Model.DatosAntecedentes.EstadoJudicial, new { id = "hdEstadoJudicial" })
+    @Html.Hidden("hdEstadoPolicial", Model.DatosAntecedentes.EstadoJudicial, new { id = "hdEstadoPolicial" })
+    @Html.Hidden("hdEstadoPenal", Model.DatosAntecedentes.EstadoJudicial, new { id = "hdEstadoPenal" })
+    @Html.HiddenFor(m => m.DatosAntecedentes.CodigoPolicial, new { id = "hdCodigoPolicial" })
+    @Html.HiddenFor(m => m.DatosAntecedentes.CodigoJudicial, new { id = "hdCodigoJudicial" })
+    @Html.HiddenFor(m => m.DatosAntecedentes.CodigoPenal, new { id = "hdCodigoPenal" })   
+    @Html.HiddenFor(m => m.DatosLicenciaPorTramitar.CodTramite, new { id = "hdCodigoTramite" })
+    
+<table>
+<tr>
+    <td><b><u>Datos del solicitante</u></b></td>
+</tr>
+</table>
+<table>
+<tr>
+    <td>Nombre</td>
+    <td>       
+        @Html.TextBoxFor(m => m.DatosLicenciaPorTramitar.NombreCiudadano, new { @readOnly = "readOnly" })
+    </td>
+</tr>
+<tr>
+    <td>Apellido Paterno</td>
+    <td>@Html.TextBoxFor(m => m.DatosLicenciaPorTramitar.ApellidoPaternoCiudadano, new { @readOnly = "readOnly" })</td>
+</tr>
+<tr>
+    <td>Apellido Materno</td>
+    <td>@Html.TextBoxFor(m => m.DatosLicenciaPorTramitar.ApellidoMaternoCiudadano, new { @readOnly = "readOnly" })</td>
+</tr>
+<tr>
+    <td>DNI</td>
+    <td>@Html.TextBoxFor(m => m.DatosLicenciaPorTramitar.DNICiudadano, new { @readOnly = "readOnly" })</td>
+</tr>
+</table>
+
+<table>
+<tr>
+    <td><b><u>Datos del arma</u></b></td>
+</tr>
+</table>
+<table>
+<tr>
+    <td>Serie</td>
+    <td>@Html.TextBoxFor(m => m.DatosLicenciaPorTramitar.SerieArma, new { @readOnly = "readOnly" })</td>
+</tr>
+<tr>
+    <td>Tienda</td>
+    <td>@Html.TextBoxFor(m => m.DatosLicenciaPorTramitar.Tienda, new { @readOnly = "readOnly" })</td>
+</tr>
+<tr>
+    <td>Código de compra</td>
+    <td>@Html.TextBoxFor(m => m.DatosLicenciaPorTramitar.CodSolicitud, new { @readOnly = "readOnly" })</td>
+</tr>
+</table>
+
+<table>
+<tr>
+    <td>
+        <table>
+        <tr>
+            <td><b><u>Antecedentes Policiales</u></b></td>
+        </tr>
+        </table>
+        <table>
+        <tr>
+            <td>Antecedentes</td>
+            <td>                        
+            @Model.DatosAntecedentes.EstadoPolicial 
+            </td>
+            <td>Código</td>
+            <td>
+            @Model.DatosAntecedentes.CodigoPolicial             
+            </td>
+        </tr>        
+        </table>  
+        
+        <table>
+        <tr>
+            <td><b><u>Antecedentes Judiciales</u></b></td>
+        </tr>
+        </table>
+        <table>
+        <tr>
+            <td>Antecedentes</td>
+            <td>            
+            @Model.DatosAntecedentes.EstadoJudicial
+            </td>
+            <td>Código</td>
+            <td>
+            @Model.DatosAntecedentes.CodigoJudicial          
+            </td>
+        </tr>        
+        </table>  
+
+        <table>
+        <tr>
+            <td><b><u>Antecedentes Penales</u></b></td>
+        </tr>
+        </table>
+        <table>
+        <tr>
+            <td>Antecedentes</td>
+            <td>            
+            @Model.DatosAntecedentes.EstadoPenal
+            </td>
+            <td>Código</td>
+            <td>
+            @Model.DatosAntecedentes.CodigoPenal       
+            </td>
+        </tr>        
+        </table>
+    
+    </td>
+    <td valign="top"><input type="submit" value ="Consultar Antecedentes" id="BuscarAntecedentes" name ="BuscarAntecedentes"/></td>
+</tr>
+</table>
+    @ViewBag.mensaje 
+
+<table>
+<tr>
+    <td><input type="submit" value ="Dar conformidad" id="DarConformidad" name ="DarConformidad"/></td>
+    <td><input type="submit" value ="Rechazar" id="Rechazar" name ="Rechazar"/></td>
+</tr>
+</table>
+}
+</section>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+<script type="text/javascript">
+    $(document).ready(function () {
+        if ($("#hdEstadoJudicial").val() == "No" && $("#hdEstadoPolicial").val() == "No" && $("#hdEstadoPenal").val() == "No") {
+            $("#Rechazar").prop('disabled', true);
+            $("#DarConformidad").prop('disabled', false);
+        }
+        else {
+            $("#Rechazar").prop('disabled', false);
+            $("#DarConformidad").prop('disabled', true);
+        }        
+    });
+</script>
+}
+

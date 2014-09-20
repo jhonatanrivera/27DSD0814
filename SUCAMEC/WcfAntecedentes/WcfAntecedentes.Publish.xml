@@ -1,0 +1,15 @@
+<publishData>
+  <publishTarget publishUrl="C:\PublicsAntecedentes\">
+    <file relUrl="bin/Entidades.pdb" publishTime="09/16/2014 15:16:38" />
+    <file relUrl="bin/Entidades.dll" publishTime="09/16/2014 15:16:39" />
+    <file relUrl="Web.config" publishTime="09/15/2014 20:29:07" />
+    <file relUrl="WcfAntecedentes.Antecedentes.svc" publishTime="09/18/2014 15:01:10" />
+    <file relUrl="bin/WcfAntecedentes.dll" publishTime="09/16/2014 15:16:57" />
+    <file relUrl="bin/AccesoDatos.pdb" publishTime="09/16/2014 15:16:43" />
+    <file relUrl="bin/AccesoDatos.dll" publishTime="09/16/2014 15:16:43" />
+    <file relUrl="bin/WcfAntecedentes.pdb" publishTime="09/16/2014 15:16:56" />
+    <file relUrl="bin/WcfAntecedentes.dll.config" publishTime="09/15/2014 20:29:07" />
+    <file relUrl="bin/LogicaNegocios.pdb" publishTime="09/16/2014 15:16:44" />
+    <file relUrl="bin/LogicaNegocios.dll" publishTime="09/16/2014 15:16:45" />
+  </publishTarget>
+</publishData>
