@@ -1,382 +1,65 @@
-	$('#S1_A_1').change(function () {
-		var S1_A_1_val = $('#S1_A_1').val();
-		if(S1_A_1_val == 1) {return};
-		if(S1_A_1_val>1 && S1_A_1_val<=20){
-			$.ajax({
-				url:CI.site_url+'consultar-miembros',
-				type:'POST',
-				dataType:'JSON',
-				data:{'NUM_VIV':$('#NUM_VIV').val()},
-				success:function (num) {
-					var totRow = $("#table1 tbody tr").length;
-					
-					if (S1_A_1_val > totRow) {
-						for (var i = totRow+1; i <= S1_A_1_val; i++) {
-							addRow(i);
-						};
-					}else if(parseInt(S1_A_1_val) < totRow){
-						for (var i = totRow; i >= S1_A_1_val; i--) {
-							if (i>=num) {
-								removeRow(i);
-							}else{
-								$('#S1_A_1').val(num)
-							};
-						};					
-					};
-				}
-			}) 			
-		}else{
-			$('#S1_A_1').val('')
-		}
-	});
+        jQuery(document).ready(function ($) { 
+            var options = {
+                $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
+                $AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                               //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideDuration: 500,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideSpacing: 5, 					                //[Optional] Space between each slide in pixels, default value is 0
+                $DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+
+                $ThumbnailNavigatorOptions: {
+                    $Class: $JssorThumbnailNavigator$,              //[Required] Class to create thumbnail navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+
+                    $Loop: 2,                                       //[Optional] Enable loop(circular) of carousel or not, 0: stop, 1: loop, 2 rewind, default value is 1
+                    $AutoCenter: 3,                                 //[Optional] Auto center thumbnail items in the thumbnail navigator container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 3
+                    $Lanes: 1,                                      //[Optional] Specify lanes to arrange thumbnails, default value is 1
+                    $SpacingX: 4,                                   //[Optional] Horizontal space between each thumbnail in pixel, default value is 0
+                    $SpacingY: 4,                                   //[Optional] Vertical space between each thumbnail in pixel, default value is 0
+                    $DisplayPieces: 4,                              //[Optional] Number of pieces to display, default value is 1
+                    $ParkingPosition: 0,                            //[Optional] The offset position to park thumbnail
+                    $Orientation: 2,                                //[Optional] Orientation to arrange thumbnails, 1 horizental, 2 vertical, default value is 1
+                    $DisableDrag: false                             //[Optional] Disable drag or not, default value is false
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizes
+            function ScaleSlider() {
+                var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
+                if (parentWidth) {
+                    var sliderWidth = parentWidth;
+
+                    //keep the slider width no more than 810
+                    sliderWidth = Math.min(sliderWidth, 810);
+
+                    jssor_slider1.$SetScaleWidth(sliderWidth);
+                }
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+
+            ScaleSlider();
+
+            if (!navigator.userAgent.match(/(iPhone|iPod|iPad|BlackBerry|IEMobile)/)) {
+                $(window).bind('resize', ScaleSlider);
+            }
 
 
-	$("#PTANUM").change(function () {
-		if($(this).val() == ""){
-			$("#MZ").removeAttr('disabled');$("#LOTE").removeAttr('disabled');
-		}else{
-			$("#MZ").attr('disabled','disabled');$("#LOTE").attr('disabled','disabled');
-		}
-	});
-
-
-$("#S1_F_48").change(function () {
-	var sel = $("#S1_49 input,#S1_F_48_A");
-	if($(this).val() == 2){
-		sel.attr('disabled','disabled'); sel.val('');
-	}else{
-		sel.removeAttr('disabled');
-	}
-});
-
-$("#S1_F_50").change(function () {
-	var sel = $("#S1_50 input:not(#S1_F_50),#S1_51 input");
-	if($(this).val() == 2){
-		sel.attr('disabled','disabled'); sel.val('');
-	}else{
-		sel.removeAttr('disabled');
-	}
-});
-
-$("#S1_J_78").change(function  (argument) {
-	var sel = $("#Parte_J input:not(#S1_J_78)");
-	if($(this).val() == 2){
-		sel.attr('disabled','disabled'); sel.val('');
-	}else{
-		sel.removeAttr('disabled');
-	}
-})
-
-
-
-
-
-/************************************************************************************************
-/************************************************************************************************
-*
-*  GUARDADO TAB1
-*
-/************************************************************************************************
-*************************************************************************************************/
-$("#frmTab1").validate({
-    success: function  (label,element) {
-    	$(element).prev('div.message').remove();
-    	$(element).removeClass('hgError');
-    },
-    errorElement: "div",
-    wrapper: "div",  // a wrapper around the error message
-   errorPlacement: function(error, element) {
-        offset = element.offset();
-        $(element).addClass('hgError');
-        error.append('<div class="arrow-down"></div>')
-        error.insertBefore(element);
-        error.addClass('message');  // add a class to the wrapper
-        error.css('position', 'absolute');
-        error.css('left', offset.left );
-        error.css('top', offset.top - element.outerHeight());
-    },	
-	submitHandler:function(){
-			ajax_btn("btnTab1",1);
-			var frmTab = ["#frmTab1",1];
-	    	var formData = $(frmTab[0]).serializeArray(); formData.push({name:'NUM_VIV', value:$('#NUM_VIV').val()});
-	    	$.ajax({
-	    		url: CI.site_url+'guardar/'+frmTab[1],
-	    		type:'POST',
-	    		dataType:'JSON',
-	    		data:formData,
-	    		success:function (argument) {
-	    			ajax_btn("btnTab1");
-	    			ajax_msg('EXITOSO','Se insertó satisfactoriamente',1);
-	    			$("#tabsHogar li").removeClass('hide');
-	    		}
-	    	})  
-
-	},
-
-})
-
-
-
-/************************************************************************************************
-/************************************************************************************************
-*
-*  GUARDADO TAB2
-*
-/************************************************************************************************
-*************************************************************************************************/
-$("#frmTab2").validate({
-	//rules:{'S1_A_1_NOM[1]':{required:true},},
-    success: function  (label,element) {
-    	$(element).prev('div.message').remove();
-    	$(element).removeClass('hgError');
-    },
-    errorElement: "div",
-    wrapper: "div",  // a wrapper around the error message
-   errorPlacement: function(error, element) {
-        offset = element.offset();
-        $(element).addClass('hgError');
-        error.append('<div class="arrow-down"></div>')
-        error.insertBefore(element);
-        error.addClass('message');  // add a class to the wrapper
-        error.css('position', 'absolute');
-        error.css('left', offset.left );
-        error.css('top', offset.top - element.outerHeight());
-    },
-
-	submitHandler:function(){
-			ajax_btn("btnTab2",1);
-			var frmTab = ["#frmTab2",2];
-	    	var formData = $(frmTab[0]).serializeArray(); formData.push({name:'NUM_VIV', value:$('#NUM_VIV').val()});
-	    	$.ajax({
-	    		url: CI.site_url+'guardar/'+frmTab[1],
-	    		type:'POST',
-	    		dataType:'JSON',
-	    		data:formData,
-	    		success:function (argument) {
-	    			ajax_btn("btnTab2");
-	    			ajax_msg('EXITOSO','Se insertó satisfactoriamente',1);
-	    		},
-	    		error:function function_name (argument) {
-	    			ajax_btn("btnTab2");
-	    			ajax_msg('ERROR','Al consultar al servidor',3);
-	    		}
-	    	})  
-
-	},
-
-})
-
-
-
-/************************************************************************************************
-/************************************************************************************************
-*
-*  GUARDADO TAB3
-*
-/************************************************************************************************
-*************************************************************************************************/
-$("#frmTab3").validate({
-    success: function  (label,element) {
-    	$(element).prev('div.message').remove();
-    	$(element).removeClass('hgError');
-    },
-    errorElement: "div",
-    wrapper: "div",  // a wrapper around the error message
-   errorPlacement: function(error, element) {
-        offset = element.offset();
-        $(element).addClass('hgError');
-        error.append('<div class="arrow-down"></div>')
-        error.insertBefore(element);
-        error.addClass('message');  // add a class to the wrapper
-        error.css('position', 'absolute');
-        error.css('left', offset.left );
-        error.css('top', offset.top - element.outerHeight());
-    },	
-	submitHandler:function(){
-			ajax_btn("btnTab3",1);
-			var frmTab = ["#frmTab3",3];
-	    	var formData = $(frmTab[0]).serializeArray(); formData.push({name:'NUM_VIV', value:$('#NUM_VIV').val()});
-	    	$.ajax({
-	    		url: CI.site_url+'guardar/'+frmTab[1],
-	    		type:'POST',
-	    		dataType:'JSON',
-	    		data:formData,
-	    		success:function (argument) {
-	    			ajax_btn("btnTab3");
-	    			ajax_msg('EXITOSO','Se insertó satisfactoriamente',1);
-	    		}
-	    	})  
-
-	},
-})
-
-
-
-
-	$(window).load(function(){	
-		$.ajax({
-    		url: CI.site_url+'get',
-    		type:'POST',
-    		dataType:'JSON',
-    		data:{NUM_VIV:$("#NUM_VIV").val()},
-    		success:function (r) {
-	    			$.each(r.hg1_localizacion, function (fieldName,fieldValue) {
-						$("#"+fieldName).val(fieldValue); 
-						if($("#"+fieldName).hasClass('setEspecificar')){$("#"+fieldName).trigger('change')};
-					});
-
-	    			$.each(r.hg2_seccion1_2, function (fieldName,fieldValue) {
-						$("#"+fieldName).val(fieldValue); 
-						if(!$("#"+fieldName).prop('disabled') && ($("#"+fieldName).hasClass('setFlujo') || $("#"+fieldName).hasClass('setEspecificar'))){$("#"+fieldName).trigger('change')};
-					});
-
-	    			$.each(r.hg3_seccion2a, function (fieldName,fieldValue) {
-						$("#"+fieldName).val(fieldValue); 
-						if(!$("#"+fieldName).prop('disabled') && ($("#"+fieldName).hasClass('setFlujo') || $("#"+fieldName).hasClass('setEspecificar'))){$("#"+fieldName).trigger('change')};
-					});
-
-	    			$.each(r.hg3_seccion2b, function (fieldName,fieldValue) {
-						$("#"+fieldName).val(fieldValue); 
-						if(!$("#"+fieldName).prop('disabled') && ($("#"+fieldName).hasClass('setFlujo') || $("#"+fieldName).hasClass('setEspecificar'))){$("#"+fieldName).trigger('change')};
-					});		
-
-					if(typeof(r.hg2_seccion1_1[0]) != "undefined" && r.hg2_seccion1_1[0] !== null){
-						$.each(r.hg2_seccion1_1, function (i,row) {
-							var cod = r.hg2_seccion1_1[i].COD_IDENT;
-							addRow(cod);/* add Row a las tablas */    				
-							$.each(row,function (fieldName,fieldValue) { 
-								$("#"+fieldName+"-"+cod).val(fieldValue); 
-								if(!$("#"+fieldName+"-"+cod).prop('disabled') && $("#"+fieldName+"-"+cod).hasClass('setFlujo')){$("#"+fieldName+"-"+cod).trigger('change');};
-							})
-						});
-					}else{
-						var cod = 1;
-						addRow(cod);/* add Row a las tablas */ 
-						$.each(r.hg2_seccion1_1,function (fieldName,fieldValue) { 
-							$("#"+fieldName+"-"+cod).val(fieldValue); 
-							if(!$("#"+fieldName+"-"+cod).prop('disabled') && $("#"+fieldName+"-"+cod).hasClass('setFlujo')){$("#"+fieldName+"-"+cod).trigger('change');};
-						})	
-					}
-
-	    			//if(r.hg1_localizacion.length>=1){
-					    setTimeout(function(){
-					        setEspecifiqueTD();
-					    },1000);	    				
-	    			//}
-
-
-    		},
-
-		});
-
-
-	});
-
-
-
-// function addSecs(d, s) {return new Date(d.valueOf()+s*1000);}
-// function doRun() {
-//     document.getElementById('msg').innerHTML = 'Processing JS...';
-//     setTimeout(function(){
-//          start = new Date();
-//          end = addSecs(start,5);
-//          do {start = new Date();} while (end-start > 0);
-//          document.getElementById('msg').innerHTML = 'Finished JS';   
-//     },10);
-// }
-
-
-
-$(document).ajaxStart(function() {
-  $( "#loading" ).show();
-});
-$(document).ajaxComplete(function() {
-  $('#loading').fadeOut(1000);
-});
-
-
-/************************************************************************************************
-/************************************************************************************************
-*
-*  GUARDADO TAB4
-*
-/************************************************************************************************
-*************************************************************************************************/
-$("#frmTab4").validate({
-    success: function  (label,element) {
-    	$(element).prev('div.message').remove();
-    	$(element).removeClass('hgError');
-    },
-    errorElement: "div",
-    wrapper: "div",  // a wrapper around the error message
-   errorPlacement: function(error, element) {
-        offset = element.offset();
-        $(element).addClass('hgError');
-        error.append('<div class="arrow-down"></div>')
-        error.insertBefore(element);
-        error.addClass('message');  // add a class to the wrapper
-        error.css('position', 'absolute');
-        error.css('left', offset.left );
-        error.css('top', offset.top - element.outerHeight());
-    },	
-	submitHandler:function(){
-			ajax_btn("btnTab4",1);
-			var frmTab = ["#frmTab4",4];
-	    	var formData = $(frmTab[0]).serializeArray(); formData.push({name:'NUM_VIV', value:$('#NUM_VIV').val()});
-	    	$.ajax({
-	    		url: CI.site_url+'guardar/'+frmTab[1],
-	    		type:'POST',
-	    		dataType:'JSON',
-	    		data:formData,
-	    		success:function (argument) {
-	    			ajax_btn("btnTab4");
-	    			ajax_msg('EXITOSO','Se insertó satisfactoriamente',1);
-	    		}
-	    	})  
-
-	},
-})
-
-
-
-/************************************************************************************************
-/************************************************************************************************
-*
-*  GUARDADO TAB5
-*
-/************************************************************************************************
-*************************************************************************************************/
-$("#frmTab5").validate({
-    success: function  (label,element) {
-    	$(element).prev('div.message').remove();
-    	$(element).removeClass('hgError');
-    },
-    errorElement: "div",
-    wrapper: "div",  // a wrapper around the error message
-   errorPlacement: function(error, element) {
-        offset = element.offset();
-        $(element).addClass('hgError');
-        error.append('<div class="arrow-down"></div>')
-        error.insertBefore(element);
-        error.addClass('message');  // add a class to the wrapper
-        error.css('position', 'absolute');
-        error.css('left', offset.left );
-        error.css('top', offset.top - element.outerHeight());
-    },	
-	submitHandler:function(){
-			ajax_btn("btnTab5",1);
-			var frmTab = ["#frmTab5",5];
-	    	var formData = $(frmTab[0]).serializeArray(); formData.push({name:'NUM_VIV', value:$('#NUM_VIV').val()});
-	    	$.ajax({
-	    		url: CI.site_url+'guardar/'+frmTab[1],
-	    		type:'POST',
-	    		dataType:'JSON',
-	    		data:formData,
-	    		success:function (argument) {
-	    			ajax_btn("btnTab5");
-	    			ajax_msg('EXITOSO','Se insertó satisfactoriamente',1);
-	    		}
-	    	})  
-
-	},
-})
+            //if (navigator.userAgent.match(/(iPhone|iPod|iPad)/)) {
+            //    $(window).bind("orientationchange", ScaleSlider);
+            //}
+            //responsive code end
+        });

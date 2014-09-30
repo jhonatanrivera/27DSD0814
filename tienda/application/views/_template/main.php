@@ -1,4 +1,8 @@
 <?php !isset($this->header) ? $this->load->view('_template/header') : FALSE; ?>	
+<div class="row">
+<div class="col-md-6">
+
+
 <?php !isset($this->nav) ? $this->load->view('_template/nav') : FALSE; ?>	
 	<div class="container-fluid">
 		<div class="row main">
@@ -21,3 +25,8 @@
 
 
 <?php !isset($this->footer) ? $this->load->view('_template/footer') : FALSE; ?>		
+
+</div>
+</div>
+
+

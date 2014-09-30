@@ -12,6 +12,7 @@
 
 	<link href="<?php echo base_url('resources/css/bootstrap.min.css'); ?>" rel="stylesheet">
 	<link href="<?php echo base_url('resources/css/main.css'); ?>" rel="stylesheet">
+	<link href="<?php echo base_url('resources/css/menu.css'); ?>" rel="stylesheet">
 	<link href="<?php echo base_url('resources/css/jquery-ui.min.css'); ?>" rel="stylesheet">
 	<link href="<?php echo base_url('resources/css/jquery-ui.theme.min.css'); ?>" rel="stylesheet">
 	<link href="<?php echo base_url('resources/css/jquery-ui.structure.min.css'); ?>" rel="stylesheet">
@@ -29,11 +30,10 @@
 	<script src="<?php echo base_url('resources/js/jquery-ui.min.js'); ?>"></script>
 	<script src="<?php echo base_url('resources/js/jquery.validate.min.js'); ?>"></script>
 	<script src="<?php echo base_url('resources/js/bootstrap.js'); ?>"></script>
+	<script src="<?php echo base_url('resources/js/custom.js'); ?>"></script><!-- Menu bar-->
 	<script src="<?php echo base_url('resources/js/main.js'); ?>"></script>
 
 
 
 </head>
 <body>
-	<?php if(isset($num_viv)) echo '<div id="loading"></div>'; ?>
-	<div id="divMsg"></div>
