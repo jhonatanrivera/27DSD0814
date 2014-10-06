@@ -19,10 +19,11 @@ class Home extends CI_Controller {
 	 */
 	public function index()
 	{
+		$data['className'] = $this->router->fetch_class();
 		$data['main_content'] = 'app/v_home';
 		$this->load->view('_template/main',$data);
 	}
 }
 
 /* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */
+/* Location: ./application/controllers/app/home.php */

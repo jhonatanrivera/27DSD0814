@@ -39,6 +39,10 @@
 */
 
 $route['default_controller'] = "app/home";
+$route['armas'] = "app/arma";
+$route['entrega-armas'] = "app/arma/entrega";
+$route['registro-usuario'] = "app/usuario";
+$route['registrar-venta'] = "app/arma/venta";
 $route['login'] = "app/auth/login";
 $route['404_override'] = '';
 
