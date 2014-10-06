@@ -1,0 +1,4 @@
+D:\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\Entidades\bin\Debug\Entidades.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\Entidades\bin\Debug\Entidades.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\Entidades\obj\Debug\Entidades.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\Entidades\obj\Debug\Entidades.pdb
