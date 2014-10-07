@@ -74,22 +74,20 @@ class Arma_model extends CI_Model
 			return FALSE;
 	}
 
-	function getVenta($data = NULL, $join = NULL)
+	function getVenta($data = NULL)
 	{
+		$this->db->select('venta.*,usuario.DNI,usuario.AP_PATERNO,usuario.AP_MATERNO,usuario.NOMBRES,arma.*,venta.ESTADO');
 		if (is_array($data)) {
 			foreach ($data as $key => $value) {
 				$this->db->where($key,$value);
 			}
+		
 		}
-		if (!is_null($join)) {
-			if ($join == 'DNI') {
-				$this->db->from('venta');
-				$this->db->join('USUARIO','USUARIO.COD_USUARIO = venta.COD_USUARIO');
-				$q = $this->db->get();
-			}
-		}else{
-			$q = $this->db->get('venta');
-		}
+		$this->db->from('venta');
+		$this->db->join('usuario','usuario.COD_USUARIO = venta.COD_USUARIO');
+		$this->db->join('arma','ARMA.SERIE_ARMA = venta.SERIE_ARMA');
+		$q = $this->db->get();	
+
 		if ($q->num_rows() >= 1) {
 			return $q->result();
 		}else{

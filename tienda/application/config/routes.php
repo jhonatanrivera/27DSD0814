@@ -46,6 +46,10 @@ $route['registrar-venta'] = "app/arma/venta";
 $route['login'] = "app/auth/login";
 $route['404_override'] = '';
 
+/* web service*/
+$route['app/service/public/get/venta/(:any)'] = "service/venta/ventas/id/$1";
+
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

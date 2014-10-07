@@ -73,11 +73,26 @@ class Arma extends CI_Controller {
 		$data['main_content'] = 'app/v_arma_entrega';
 		$TYPE = $this->input->post('TYPE');
 		$FIND = $this->input->post('FIND');
+		$data['ventas'] = NULL;
 		if( $TYPE || $TYPE != 'none'){
+			$data['FIND'] = $FIND;
 			if ($TYPE == 'CODIGO') {
 				$data['ventas'] = $this->arma_model->getVenta(array('COD_REGISTRO' => $FIND));
 			}else if($TYPE == 'DNI'){
-				$data['ventas'] = $this->arma_model->getVenta(array('DNI' => $FIND),'DNI');
+				$data['ventas'] = $this->arma_model->getVenta(array('DNI' => $FIND));
+			}else if($TYPE == 'PENDIENTES'){
+				$data['ventas'] = $this->arma_model->getVenta(array('venta.ESTADO' => 1));
+			}else if($TYPE == 'ENTREGADOS'){
+				$data['ventas'] = $this->arma_model->getVenta(array('venta.ESTADO' => 3));
+			}else if($TYPE == 'RECHAZADOS'){
+				$data['ventas'] = $this->arma_model->getVenta(array('venta.ESTADO' => 2));
+			}else if($TYPE == 'TODOS'){
+				$data['ventas'] = $this->arma_model->getVenta();
+			}else{
+				$data['FIND'] = '';
+			}
+			if (is_array($data['ventas']) && count($data['ventas']) == 0) {
+				$data['FIND'] = 'No existe registros';
 			}
 		}
 

@@ -97,7 +97,7 @@
 
 
 <script type="text/javascript">
-var marcas = <?php echo json_encode($armas); ?>;
+var marcas = <?php  echo (isset($armas) && count($armas)>=1) ? json_encode($armas) : '""'; ?>;
 
         jQuery(document).ready(function ($) { 
             var options = {
@@ -172,7 +172,7 @@ var marcas = <?php echo json_encode($armas); ?>;
                 k = i; break;
             };
         };
-        if (k!=99) {
+        if (k!=999) {
             $("#MODELO").val(argument);
             $("#divComprarTitle").html('COMPRAR | '+marcas[k].MARCA);
             $("#divComprarDesc").html(marcas[k].CARACTERISTICAS);
