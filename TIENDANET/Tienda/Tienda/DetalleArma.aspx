@@ -48,7 +48,7 @@ CodeBehind="DetalleArma.aspx.cs" Inherits="Tienda.DetalleArma" %>
             <tr><td style="width:100%;height:20px;"></td></tr>
              <tr>
                 <td style="width:100%">Ingrese DNI: &nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="txtDNI" runat="server"></asp:TextBox>&nbsp;&nbsp;&nbsp;
+                    <asp:TextBox ID="txtDNI" runat="server" MaxLength="8"></asp:TextBox>&nbsp;&nbsp;&nbsp;
                     <asp:Button ID="btnConfirmar" runat="server" Text="Confirmar Compra" 
                         onclick="btnConfirmar_Click" />
                         &nbsp;&nbsp;&nbsp;

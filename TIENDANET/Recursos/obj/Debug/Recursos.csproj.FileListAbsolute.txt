@@ -2,3 +2,12 @@ D:\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\Recursos\bin\Debug\Recursos
 D:\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\Recursos\bin\Debug\Recursos.pdb
 D:\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\Recursos\obj\Debug\Recursos.dll
 D:\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\Recursos\obj\Debug\Recursos.pdb
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\TIENDANET\Recursos\bin\Debug\Recursos.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\TIENDANET\Recursos\bin\Debug\Recursos.pdb
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\TIENDANET\Recursos\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\TIENDANET\Recursos\obj\Debug\Recursos.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\TIENDANET\Recursos\obj\Debug\Recursos.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Recursos\bin\Debug\Recursos.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Recursos\bin\Debug\Recursos.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Recursos\obj\Debug\Recursos.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Recursos\obj\Debug\Recursos.pdb

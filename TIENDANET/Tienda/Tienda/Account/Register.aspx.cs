@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using LogicaNegocios;
 
 namespace Tienda.Account
 {
@@ -13,19 +14,25 @@ namespace Tienda.Account
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            RegisterUser.ContinueDestinationPageUrl = Request.QueryString["ReturnUrl"];
+            
         }
 
-        protected void RegisterUser_CreatedUser(object sender, EventArgs e)
-        {
-            FormsAuthentication.SetAuthCookie(RegisterUser.UserName, false /* createPersistentCookie */);
+       
 
-            string continueUrl = RegisterUser.ContinueDestinationPageUrl;
-            if (String.IsNullOrEmpty(continueUrl))
+        protected void btnGrabar_Click(object sender, EventArgs e)
+        {
+            if (Page.IsValid)
             {
-                continueUrl = "~/";
+                LogicaUsuario objLogica = new LogicaUsuario();
+                int intResultado = 0;
+                intResultado = objLogica.RegistraUsuario(txtNombres.Text.Trim(), txtApellidoPaterno.Text.Trim(), txtApellidoMaterno.Text.Trim(),
+                                         txtDNI.Text.Trim(), rbSexo.SelectedItem.Value.ToString(), txtFechaNacimiento.Text.Trim(),
+                                         txtEmail.Text.Trim(), txtCelular.Text.Trim(), txtDireccion.Text.Trim());
+
+                if (intResultado == -1)
+                    Response.Redirect("Resultado.aspx", false); 
+
             }
-            Response.Redirect(continueUrl);
         }
 
     }

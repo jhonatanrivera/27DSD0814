@@ -17,5 +17,18 @@ namespace LogicaNegocios
             objUsuario = objDatosUsuario.ValidaUsuario(strDNI);
             return objUsuario;
         }
+
+        public int RegistraUsuario(string strNombres, string strApellidoPaterno, string strApellidoMaterno,
+                                   string strDNI, string strSexo, string strFechaNacimiento, string strEmail,
+                                   string strCelular, string strDireccion)
+        {
+            DatosUsuario objDatosUsuario = new DatosUsuario();
+            int intResultado = 0;
+
+            intResultado = objDatosUsuario.RegistraUsuario(strNombres, strApellidoPaterno, strApellidoMaterno,
+                                                           strDNI, strSexo, strFechaNacimiento, strEmail, strCelular, 
+                                                           strDireccion);
+            return intResultado;
+        }
     }
 }

@@ -10,3 +10,27 @@ C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo F
 C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\WcfAntecedentes\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\WcfAntecedentes\obj\Debug\WcfAntecedentes.dll
 C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\WcfAntecedentes\obj\Debug\WcfAntecedentes.pdb
+C:\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\bin\Debug\WcfAntecedentes.dll.config
+C:\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\bin\Debug\WcfAntecedentes.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\bin\Debug\WcfAntecedentes.pdb
+C:\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\bin\Debug\Entidades.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\bin\Debug\LogicaNegocios.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\bin\Debug\AccesoDatos.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\bin\Debug\Entidades.pdb
+C:\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\bin\Debug\LogicaNegocios.pdb
+C:\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\bin\Debug\AccesoDatos.pdb
+C:\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\obj\Debug\WcfAntecedentes.csprojResolveAssemblyReference.cache
+C:\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\obj\Debug\WcfAntecedentes.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\obj\Debug\WcfAntecedentes.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\bin\Debug\WcfAntecedentes.dll.config
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\bin\Debug\WcfAntecedentes.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\bin\Debug\WcfAntecedentes.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\bin\Debug\Entidades.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\bin\Debug\LogicaNegocios.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\bin\Debug\AccesoDatos.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\bin\Debug\Entidades.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\bin\Debug\LogicaNegocios.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\bin\Debug\AccesoDatos.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\obj\Debug\WcfAntecedentes.csprojResolveAssemblyReference.cache
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\obj\Debug\WcfAntecedentes.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfAntecedentes\obj\Debug\WcfAntecedentes.pdb

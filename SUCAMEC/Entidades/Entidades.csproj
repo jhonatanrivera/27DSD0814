@@ -45,6 +45,7 @@
     <Compile Include="EntidadCiudadano.cs" />
     <Compile Include="EntidadLicencia.cs" />
     <Compile Include="EntidadTramite.cs" />
+    <Compile Include="EntidadTramiteRest.cs" />
     <Compile Include="EntidadUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,0 +1,21 @@
+<%--
+Plantilla de máscara predeterminada. Las siguientes máscaras se proporcionan sólo como ejemplos.
+
+1. Máscara de control con nombre. SkinId debería definirse de forma única porque
+no se permite que haya varios SkinId por tipo de control en el mismo tema.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Máscara predeterminada. Skinid no está definido Sólo se permite 
+   una máscara de control por tipo de control en el mismo tema.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<asp:GridView skinid="GrillaLectura" runat="server" BackColor="#ececec" BorderColor="#ffffff" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="Black" Font-Names="Verdana" Font-Size="x-small">            
+    <HeaderStyle BackColor="#4b6c9e" Font-Bold="True" ForeColor="White" HorizontalAlign="Center" />            
+    <RowStyle BackColor="White" HorizontalAlign="Left" ForeColor="#525252"/>  
+    <AlternatingRowStyle BackColor="#d5d5d5" ForeColor="#525252"/>   
+</asp:GridView>

@@ -11,7 +11,7 @@ CodeBehind="ResultadoVenta.aspx.cs" Inherits="Tienda.ResultadoVenta" %>
 
     <table style="width:100%">
     <tr>
-        <td style="width:100%;height:100px;"></td>
+        <td style="width:100%;height:50px;"></td>
     </tr>
     <tr>
         <td style="width:100%" valign="top" align ="center">
@@ -20,7 +20,9 @@ CodeBehind="ResultadoVenta.aspx.cs" Inherits="Tienda.ResultadoVenta" %>
         
         </td>        
     </tr>
-        
+    <tr>
+        <td style="width:100%;height:50px;"></td>
+    </tr>
     </table>
     
 </asp:Content>

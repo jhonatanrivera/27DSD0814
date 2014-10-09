@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e2b1bc9c-e4f0-4572-8498-6c98d14824ab" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/ServicioSucamec/WcfSucamec.Sucamec.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WcfSucamec.xsd" MetadataType="Schema" ID="eb96c4e7-60d9-426f-95c5-67aa9959acb3" SourceId="1" SourceUrl="http://rramos-pc/ServicioSucamec/WcfSucamec.Sucamec.svc?xsd=xsd1" />
+    <MetadataFile FileName="Sucamec.wsdl" MetadataType="Wsdl" ID="91ab193c-270f-41de-ba7a-c652838f7866" SourceId="1" SourceUrl="http://rramos-pc/ServicioSucamec/WcfSucamec.Sucamec.svc?wsdl" />
+    <MetadataFile FileName="WcfSucamec.disco" MetadataType="Disco" ID="eb887269-ffef-47c6-8d49-95af89d72851" SourceId="1" SourceUrl="http://rramos-pc/ServicioSucamec/WcfSucamec.Sucamec.svc?disco" />
+    <MetadataFile FileName="WcfSucamec1.xsd" MetadataType="Schema" ID="d5baf38b-f8fd-41ff-98c9-0fda4bb2b514" SourceId="1" SourceUrl="http://rramos-pc/ServicioSucamec/WcfSucamec.Sucamec.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

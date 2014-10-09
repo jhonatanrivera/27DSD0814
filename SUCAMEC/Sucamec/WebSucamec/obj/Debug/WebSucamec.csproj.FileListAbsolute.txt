@@ -171,3 +171,125 @@ C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo F
 C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec\obj\Debug\WebSucamec.dll
 C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Sucamec\WebSucamec\obj\Debug\WebSucamec.pdb
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\WebSucamec.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\WebSucamec.pdb
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Antlr3.Runtime.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.AspNet.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.Core.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.OAuth.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.OpenId.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Entidades.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\EntityFramework.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\LogicaNegocios.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Microsoft.Web.Infrastructure.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Newtonsoft.Json.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Recursos.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Net.Http.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Net.Http.Formatting.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Net.Http.WebRequest.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Helpers.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Http.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Http.WebHost.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Mvc.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Optimization.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Razor.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.WebPages.Deployment.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.WebPages.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.WebPages.Razor.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\WebGrease.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\WebMatrix.Data.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\WebMatrix.WebData.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\AccesoDatos.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Entidades.pdb
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\LogicaNegocios.pdb
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Recursos.pdb
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\EntityFramework.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Newtonsoft.Json.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Net.Http.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Net.Http.Formatting.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Net.Http.WebRequest.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Helpers.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Http.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Http.WebHost.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Mvc.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Razor.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.WebPages.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.WebPages.Deployment.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.WebPages.Razor.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\WebMatrix.Data.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\WebMatrix.WebData.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.AspNet.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.Core.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.OAuth.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.OpenId.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\AccesoDatos.pdb
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\obj\Debug\WebSucamec.csprojResolveAssemblyReference.cache
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\obj\Debug\WebSucamec.dll
+C:\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\obj\Debug\WebSucamec.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\WebSucamec.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\WebSucamec.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Antlr3.Runtime.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.AspNet.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.Core.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.OAuth.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.OpenId.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Entidades.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\EntityFramework.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\LogicaNegocios.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Microsoft.Web.Infrastructure.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Newtonsoft.Json.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Recursos.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Net.Http.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Net.Http.Formatting.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Net.Http.WebRequest.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Helpers.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Http.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Http.WebHost.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Mvc.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Optimization.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Razor.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.WebPages.Deployment.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.WebPages.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.WebPages.Razor.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\WebGrease.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\WebMatrix.Data.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\WebMatrix.WebData.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\AccesoDatos.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Entidades.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\LogicaNegocios.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Recursos.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\EntityFramework.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Newtonsoft.Json.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Net.Http.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Net.Http.Formatting.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Net.Http.WebRequest.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Helpers.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Http.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Http.WebHost.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Mvc.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.Razor.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.WebPages.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.WebPages.Deployment.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\System.Web.WebPages.Razor.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\WebMatrix.Data.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\WebMatrix.WebData.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.AspNet.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.Core.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.OAuth.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.OpenId.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\bin\AccesoDatos.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\obj\Debug\WebSucamec.csprojResolveAssemblyReference.cache
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\obj\Debug\WebSucamec.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Sucamec\WebSucamec\obj\Debug\WebSucamec.pdb

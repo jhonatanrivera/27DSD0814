@@ -4,72 +4,149 @@
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-    <asp:CreateUserWizard ID="RegisterUser" runat="server" EnableViewState="false" OnCreatedUser="RegisterUser_CreatedUser">
-        <LayoutTemplate>
-            <asp:PlaceHolder ID="wizardStepPlaceholder" runat="server"></asp:PlaceHolder>
-            <asp:PlaceHolder ID="navigationPlaceholder" runat="server"></asp:PlaceHolder>
-        </LayoutTemplate>
-        <WizardSteps>
-            <asp:CreateUserWizardStep ID="RegisterUserWizardStep" runat="server">
-                <ContentTemplate>
-                    <h2>
-                        Crear una nueva cuenta
-                    </h2>
-                    <p>
-                        Use el formulario siguiente para crear una cuenta nueva.
-                    </p>
-                    <p>
-                        Las contraseñas deben tener una longitud mínima de <%= Membership.MinRequiredPasswordLength %> caracteres.
-                    </p>
-                    <span class="failureNotification">
-                        <asp:Literal ID="ErrorMessage" runat="server"></asp:Literal>
-                    </span>
-                    <asp:ValidationSummary ID="RegisterUserValidationSummary" runat="server" CssClass="failureNotification" 
-                         ValidationGroup="RegisterUserValidationGroup"/>
-                    <div class="accountInfo">
-                        <fieldset class="register">
-                            <legend>Información de cuenta</legend>
-                            <p>
-                                <asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserName">Nombre de usuario:</asp:Label>
-                                <asp:TextBox ID="UserName" runat="server" CssClass="textEntry"></asp:TextBox>
-                                <asp:RequiredFieldValidator ID="UserNameRequired" runat="server" ControlToValidate="UserName" 
-                                     CssClass="failureNotification" ErrorMessage="El nombre de usuario es obligatorio." ToolTip="El nombre de usuario es obligatorio." 
-                                     ValidationGroup="RegisterUserValidationGroup">*</asp:RequiredFieldValidator>
-                            </p>
-                            <p>
-                                <asp:Label ID="EmailLabel" runat="server" AssociatedControlID="Email">Correo electrónico:</asp:Label>
-                                <asp:TextBox ID="Email" runat="server" CssClass="textEntry"></asp:TextBox>
-                                <asp:RequiredFieldValidator ID="EmailRequired" runat="server" ControlToValidate="Email" 
-                                     CssClass="failureNotification" ErrorMessage="El correo electrónico es obligatorio." ToolTip="El correo electrónico es obligatorio." 
-                                     ValidationGroup="RegisterUserValidationGroup">*</asp:RequiredFieldValidator>
-                            </p>
-                            <p>
-                                <asp:Label ID="PasswordLabel" runat="server" AssociatedControlID="Password">Contraseña:</asp:Label>
-                                <asp:TextBox ID="Password" runat="server" CssClass="passwordEntry" TextMode="Password"></asp:TextBox>
-                                <asp:RequiredFieldValidator ID="PasswordRequired" runat="server" ControlToValidate="Password" 
-                                     CssClass="failureNotification" ErrorMessage="La contraseña es obligatoria." ToolTip="La contraseña es obligatoria." 
-                                     ValidationGroup="RegisterUserValidationGroup">*</asp:RequiredFieldValidator>
-                            </p>
-                            <p>
-                                <asp:Label ID="ConfirmPasswordLabel" runat="server" AssociatedControlID="ConfirmPassword">Confirmar contraseña:</asp:Label>
-                                <asp:TextBox ID="ConfirmPassword" runat="server" CssClass="passwordEntry" TextMode="Password"></asp:TextBox>
-                                <asp:RequiredFieldValidator ControlToValidate="ConfirmPassword" CssClass="failureNotification" Display="Dynamic" 
-                                     ErrorMessage="Confirmar contraseña es obligatorio." ID="ConfirmPasswordRequired" runat="server" 
-                                     ToolTip="Confirmar contraseña es obligatorio." ValidationGroup="RegisterUserValidationGroup">*</asp:RequiredFieldValidator>
-                                <asp:CompareValidator ID="PasswordCompare" runat="server" ControlToCompare="Password" ControlToValidate="ConfirmPassword" 
-                                     CssClass="failureNotification" Display="Dynamic" ErrorMessage="Contraseña y Confirmar contraseña deben coincidir."
-                                     ValidationGroup="RegisterUserValidationGroup">*</asp:CompareValidator>
-                            </p>
-                        </fieldset>
-                        <p class="submitButton">
-                            <asp:Button ID="CreateUserButton" runat="server" CommandName="MoveNext" Text="Crear usuario" 
-                                 ValidationGroup="RegisterUserValidationGroup"/>
-                        </p>
-                    </div>
-                </ContentTemplate>
-                <CustomNavigationTemplate>
-                </CustomNavigationTemplate>
-            </asp:CreateUserWizardStep>
-        </WizardSteps>
-    </asp:CreateUserWizard>
+    <h2>
+        <center>REGISTRO DE USUARIOS</center>
+    </h2>
+
+    <table style="width:100%">
+    <tr>
+        <td style="width:100%;height:50px;"></td>
+    </tr>
+    </table>
+
+    <table style="width:100%">
+    <tr>
+        <td style="width:20%"></td>
+        <td style="width:20%">Nombre:</td>        
+        <td style="width:40%">
+        <asp:TextBox ID="txtNombres" runat="server" Width="411px" MaxLength="60"></asp:TextBox>
+            </td>        
+        <td style="width:20%">
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
+                ControlToValidate="txtNombres" ErrorMessage="*" ForeColor="#CC3300"></asp:RequiredFieldValidator>
+        </td>
+    </tr>
+    <tr><td style="width:100%;height:10px;" colspan="4"></td></tr>
+    <tr>
+        <td style="width:20%"></td>
+        <td style="width:20%">Apellido Paterno:</td>        
+        <td style="width:40%">
+        <asp:TextBox ID="txtApellidoPaterno" runat="server" Width="411px" MaxLength="60"></asp:TextBox>
+            </td>        
+        <td style="width:20%">
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" 
+                ControlToValidate="txtApellidoPaterno" ErrorMessage="*" ForeColor="#CC3300"></asp:RequiredFieldValidator>
+        </td>
+    </tr>
+    <tr><td style="width:100%;height:10px;" colspan="4"></td></tr>
+    <tr>
+        <td style="width:20%"></td>
+        <td style="width:20%">Apellido Materno:</td>        
+        <td style="width:40%">
+        <asp:TextBox ID="txtApellidoMaterno" runat="server" Width="411px" MaxLength="60"></asp:TextBox>
+            </td>        
+        <td style="width:20%">
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" 
+                ControlToValidate="txtApellidoMaterno" ErrorMessage="*" ForeColor="#CC3300"></asp:RequiredFieldValidator>
+        </td>
+    </tr>
+    <tr><td style="width:100%;height:10px;" colspan="4"></td></tr>
+    <tr>
+        <td style="width:20%"></td>
+        <td style="width:20%">DNI:</td>        
+        <td style="width:40%">
+        <asp:TextBox ID="txtDNI" runat="server" Width="89px" MaxLength="8"></asp:TextBox>
+            </td>        
+        <td style="width:20%">
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" 
+                ControlToValidate="txtDNI" ErrorMessage="*" ForeColor="#CC3300"></asp:RequiredFieldValidator>
+        </td>
+    </tr>
+    <tr><td style="width:100%;height:10px;" colspan="4"></td></tr>
+    <tr>
+        <td style="width:20%"></td>        
+        <td style="width:20%">Sexo:</td>        
+        <td style="width:40%">
+            <asp:RadioButtonList ID="rbSexo" runat="server" RepeatDirection="Horizontal" 
+                Width="270px">
+                <asp:ListItem Selected="True" Value="M">Masculino</asp:ListItem>
+                <asp:ListItem Value="F">Femenino</asp:ListItem>
+        </asp:RadioButtonList>
+            </td>        
+        <td style="width:20%">            
+        </td>
+        
+    </tr>
+    <tr><td style="width:100%;height:10px;" colspan="4"></td></tr>
+    <tr>
+        <td style="width:20%"></td>
+        <td style="width:20%">Fecha de Nacimiento:</td>        
+        <td style="width:40%">
+        <asp:TextBox ID="txtFechaNacimiento" runat="server" Width="89px" MaxLength="10"></asp:TextBox>
+            </td>        
+        <td style="width:20%">
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" 
+                ControlToValidate="txtFechaNacimiento" ErrorMessage="*" ForeColor="#CC3300"></asp:RequiredFieldValidator>
+        </td>
+    </tr>
+    <tr><td style="width:100%;height:10px;" colspan="4"></td></tr>
+    <tr>
+        <td style="width:20%"></td>
+        <td style="width:20%">Email:</td>        
+        <td style="width:40%">
+        <asp:TextBox ID="txtEmail" runat="server" Width="184px" MaxLength="60"></asp:TextBox>
+            </td>        
+        <td style="width:20%">
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" 
+                ControlToValidate="txtEmail" ErrorMessage="*" ForeColor="#CC3300"></asp:RequiredFieldValidator>
+        </td>
+    </tr>
+    <tr><td style="width:100%;height:10px;" colspan="4"></td></tr>
+    <tr>
+        <td style="width:20%"></td>
+        <td style="width:20%">Celular:</td>        
+        <td style="width:40%">
+        <asp:TextBox ID="txtCelular" runat="server" Width="182px" MaxLength="9"></asp:TextBox>
+            </td>        
+        <td style="width:20%">
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" 
+                ControlToValidate="txtCelular" ErrorMessage="*" ForeColor="#CC3300"></asp:RequiredFieldValidator>
+        </td>
+    </tr>
+    <tr><td style="width:100%;height:10px;" colspan="4"></td></tr>
+    <tr>
+        <td style="width:20%"></td>
+        <td style="width:20%">Direccion:</td>        
+        <td style="width:40%">
+        <asp:TextBox ID="txtDireccion" runat="server" Width="411px" MaxLength="60"></asp:TextBox>
+            </td>        
+        <td style="width:20%">
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" 
+                ControlToValidate="txtDireccion" ErrorMessage="*" ForeColor="#CC3300"></asp:RequiredFieldValidator>
+        </td>
+    </tr>    
+    </table>    
+
+    <table style="width:100%">
+    <tr>
+        <td style="width:100%;height:20px;" colspan="3"></td>
+    </tr>
+    <tr>
+        <td style="width:20%"></td>
+        <td style="width:60%">            
+        <center>
+        <asp:Button ID="btnGrabar" runat="server" Text="Grabar" onclick="btnGrabar_Click" />        
+        </center>
+        </td>        
+        <td style="width:20%"></td>
+    </tr>
+    </table>
+
+    <table style="width:100%">
+    <tr>
+        <td style="width:100%;height:50px;"></td>
+    </tr>
+    </table>
+
+
 </asp:Content>

@@ -14,8 +14,11 @@ namespace Entidades
         public string ApellidoMaternoCiudadano { get; set; }
         public string DNICiudadano { get; set; }
         public string SerieArma { get; set; }
+        public int TipoTramite { get; set; }
+        public int CodTienda { get; set; }
         public string Tienda { get; set; }
         public int CodSolicitud { get; set; }
+        public int Estado { get; set; }
         public string DNICiudadanoJudicial { get; set; }
         public string EstadoJudicial { get; set; }
         public string CodigoJudicial { get; set; }

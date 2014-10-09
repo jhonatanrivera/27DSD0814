@@ -9,12 +9,12 @@ namespace AccesoDatos
 {
     public class DatosLicencia:Conexion
     {
-        public int RegistraLicencia(int intCodTramite, int intEstadoLicencia, int intEstadoTramite,
+        public string RegistraLicencia(int intCodTramite, int intEstadoLicencia, int intEstadoTramite,
                                                           string strEstadoAntecedentePolicial, string strCodigoAntecedentePolicial,
                                                           string strEstadoAntecedenteJudicial, string strCodigoAntecedenteJudicial,
                                                           string strEstadoAntecedentePenal, string strCodigoAntecedentePenal)
         {
-            int intResultado = 0;
+            string  strNumeroLicencia = "";
             string strCadenaConexion = DevuelveConexion();
             SqlConnection con = new SqlConnection(strCadenaConexion);
             SqlCommand com = new SqlCommand("RegistraLicencia", con);
@@ -30,10 +30,10 @@ namespace AccesoDatos
             com.CommandType = System.Data.CommandType.StoredProcedure;
 
             con.Open();
-            intResultado = com.ExecuteNonQuery();
+            strNumeroLicencia = com.ExecuteScalar().ToString();
             con.Close();
 
-            return intResultado;
+            return strNumeroLicencia;
         }
 
         public EntidadTramite DatosLicenciaTramitada(int intCodTramite)
@@ -105,6 +105,33 @@ namespace AccesoDatos
             drLicencia.Close();
             con.Close();
             return Licencia;
-        }  
+        }
+
+        public int RechazarLicencia(int intCodTramite, int intEstadoTramite, string strEstadoAntecedentePolicial, 
+                                    string strCodigoAntecedentePolicial, string strEstadoAntecedenteJudicial, 
+                                    string strCodigoAntecedenteJudicial, string strEstadoAntecedentePenal, 
+                                    string strCodigoAntecedentePenal)
+        {
+            int intResultado = 0;
+            string strCadenaConexion = DevuelveConexion();
+            SqlConnection con = new SqlConnection(strCadenaConexion);
+            SqlCommand com = new SqlCommand("RechazarLicencia", con);
+            com.Parameters.Add(new SqlParameter("CodTramite", intCodTramite));            
+            com.Parameters.Add(new SqlParameter("EstadoTramite", intEstadoTramite));
+            com.Parameters.Add(new SqlParameter("APolicial", strEstadoAntecedentePolicial));
+            com.Parameters.Add(new SqlParameter("APolicialCod", strCodigoAntecedentePolicial));
+            com.Parameters.Add(new SqlParameter("AJudicial", strEstadoAntecedenteJudicial));
+            com.Parameters.Add(new SqlParameter("AJudicialCod", strCodigoAntecedenteJudicial));
+            com.Parameters.Add(new SqlParameter("APenal", strEstadoAntecedentePenal));
+            com.Parameters.Add(new SqlParameter("APenalCod", strCodigoAntecedentePenal));
+            com.CommandType = System.Data.CommandType.StoredProcedure;
+
+            con.Open();
+            intResultado = com.ExecuteNonQuery();
+            con.Close();
+
+            return intResultado;
+        }
+
     }
 }

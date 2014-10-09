@@ -11,3 +11,42 @@ D:\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\Tienda\Tienda\bin\AccesoDat
 D:\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\Tienda\Tienda\obj\Debug\Tienda.csprojResolveAssemblyReference.cache
 D:\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\Tienda\Tienda\bin\Recursos.dll
 D:\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\Tienda\Tienda\bin\Recursos.pdb
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\TIENDANET\Tienda\Tienda\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\TIENDANET\Tienda\Tienda\bin\Tienda.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\TIENDANET\Tienda\Tienda\bin\Tienda.pdb
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\TIENDANET\Tienda\Tienda\bin\Entidades.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\TIENDANET\Tienda\Tienda\bin\LogicaNegocios.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\TIENDANET\Tienda\Tienda\bin\Recursos.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\TIENDANET\Tienda\Tienda\bin\AccesoDatos.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\TIENDANET\Tienda\Tienda\bin\Entidades.pdb
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\TIENDANET\Tienda\Tienda\bin\LogicaNegocios.pdb
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\TIENDANET\Tienda\Tienda\bin\Recursos.pdb
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\TIENDANET\Tienda\Tienda\bin\AccesoDatos.pdb
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\TIENDANET\Tienda\Tienda\obj\Debug\Tienda.dll
+C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\TIENDANET\TIENDANET\Tienda\Tienda\obj\Debug\Tienda.pdb
+C:\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\Tienda.dll
+C:\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\Tienda.pdb
+C:\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\Entidades.dll
+C:\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\LogicaNegocios.dll
+C:\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\Recursos.dll
+C:\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\AccesoDatos.dll
+C:\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\Entidades.pdb
+C:\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\LogicaNegocios.pdb
+C:\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\Recursos.pdb
+C:\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\AccesoDatos.pdb
+C:\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\obj\Debug\Tienda.csprojResolveAssemblyReference.cache
+C:\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\obj\Debug\Tienda.dll
+C:\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\obj\Debug\Tienda.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\Tienda.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\Tienda.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\Entidades.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\LogicaNegocios.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\Recursos.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\AccesoDatos.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\Entidades.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\LogicaNegocios.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\Recursos.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\bin\AccesoDatos.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\obj\Debug\Tienda.csprojResolveAssemblyReference.cache
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\obj\Debug\Tienda.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\TIENDANET\TIENDANET\Tienda\Tienda\obj\Debug\Tienda.pdb

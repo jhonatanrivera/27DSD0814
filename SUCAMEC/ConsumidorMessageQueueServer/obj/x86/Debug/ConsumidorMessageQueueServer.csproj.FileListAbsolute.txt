@@ -1,0 +1,8 @@
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\ConsumidorMessageQueueServer\bin\Debug\ConsumidorMessageQueueServer.exe.config
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\ConsumidorMessageQueueServer\bin\Debug\ConsumidorMessageQueueServer.exe
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\ConsumidorMessageQueueServer\bin\Debug\ConsumidorMessageQueueServer.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\ConsumidorMessageQueueServer\bin\Debug\Entidades.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\ConsumidorMessageQueueServer\bin\Debug\Entidades.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\ConsumidorMessageQueueServer\obj\x86\Debug\ConsumidorMessageQueueServer.csprojResolveAssemblyReference.cache
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\ConsumidorMessageQueueServer\obj\x86\Debug\ConsumidorMessageQueueServer.exe
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\ConsumidorMessageQueueServer\obj\x86\Debug\ConsumidorMessageQueueServer.pdb

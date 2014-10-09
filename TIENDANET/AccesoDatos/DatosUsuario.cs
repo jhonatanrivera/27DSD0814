@@ -34,6 +34,32 @@ namespace AccesoDatos
             drUsuario.Close();
             con.Close();
             return Usuario;
-        }  
+        }
+
+        public int RegistraUsuario(string strNombres, string strApellidoPaterno, string strApellidoMaterno,
+                                   string strDNI, string strSexo, string strFechaNacimiento, string strEmail,
+                                   string strCelular, string strDireccion)
+        {
+            int intResultado = 0;
+            string strCadenaConexion = DevuelveConexion();
+            SqlConnection con = new SqlConnection(strCadenaConexion);
+            SqlCommand com = new SqlCommand("RegistraUsuario", con);
+            com.Parameters.Add(new SqlParameter("Nombres", strNombres));
+            com.Parameters.Add(new SqlParameter("ApellidoPaterno", strApellidoPaterno));
+            com.Parameters.Add(new SqlParameter("ApellidoMaterno", strApellidoMaterno));
+            com.Parameters.Add(new SqlParameter("DNI", strDNI));
+            com.Parameters.Add(new SqlParameter("Sexo", strSexo));
+            com.Parameters.Add(new SqlParameter("FechaNacimiento", strFechaNacimiento));
+            com.Parameters.Add(new SqlParameter("Email", strEmail));
+            com.Parameters.Add(new SqlParameter("Celular", strCelular));
+            com.Parameters.Add(new SqlParameter("Direccion", strDireccion));
+            com.CommandType = System.Data.CommandType.StoredProcedure;
+
+            con.Open();
+            intResultado = com.ExecuteNonQuery();
+            con.Close();
+
+            return intResultado;
+        }
     }
 }

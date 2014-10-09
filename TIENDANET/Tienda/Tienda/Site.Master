@@ -33,7 +33,7 @@
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Catalogo de armas"/>
-                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="Registro de Usuarios"/>
+                        <asp:MenuItem NavigateUrl="~/Account/Register.aspx" Text="Registro de Usuarios"/>
                     </Items>
                 </asp:Menu>
             </div>

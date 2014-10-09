@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://rramos-pc/ServicioSucamecRest/WcfSucamecServRest.Sucamec.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Entidades" />
+  <xs:element name="RegistraTramite">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Entidades" minOccurs="0" name="Tramite" nillable="true" type="q1:EntidadTramiteRest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegistraTramiteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RegistraTramiteResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegistraTramite2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="TipoTramite" type="xs:int" />
+        <xs:element minOccurs="0" name="CodTienda" type="xs:int" />
+        <xs:element minOccurs="0" name="Tienda" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CodSolicitud" type="xs:int" />
+        <xs:element minOccurs="0" name="DNI" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SerieArma" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Estado" type="xs:int" />
+        <xs:element minOccurs="0" name="Nombres" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApellidoPaterno" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ApellidoMaterno" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Sexo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Celular" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Direccion" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegistraTramite2Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RegistraTramite2Result" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

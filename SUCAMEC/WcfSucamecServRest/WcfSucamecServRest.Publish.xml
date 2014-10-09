@@ -1,0 +1,15 @@
+<publishData>
+  <publishTarget publishUrl="D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\compiladoWebServiceSucamecRest\">
+    <file relUrl="bin/Entidades.pdb" publishTime="10/08/2014 14:29:20" />
+    <file relUrl="bin/Entidades.dll" publishTime="10/08/2014 14:29:20" />
+    <file relUrl="bin/WcfSucamecServRest.pdb" publishTime="10/08/2014 14:29:20" />
+    <file relUrl="Web.config" publishTime="10/08/2014 14:25:40" />
+    <file relUrl="bin/WcfSucamecServRest.dll" publishTime="10/08/2014 14:29:20" />
+    <file relUrl="bin/AccesoDatos.dll" publishTime="10/08/2014 14:29:20" />
+    <file relUrl="bin/AccesoDatos.pdb" publishTime="10/08/2014 14:29:20" />
+    <file relUrl="WcfSucamecServRest.Sucamec.svc" publishTime="10/08/2014 14:33:26" />
+    <file relUrl="bin/WcfSucamecServRest.dll.config" publishTime="10/08/2014 14:25:40" />
+    <file relUrl="bin/LogicaNegocios.pdb" publishTime="10/08/2014 14:29:20" />
+    <file relUrl="bin/LogicaNegocios.dll" publishTime="10/08/2014 14:29:20" />
+  </publishTarget>
+</publishData>

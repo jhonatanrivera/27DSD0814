@@ -23,14 +23,14 @@ namespace Tienda.Account
                 LogicaVendedor objLogica = new LogicaVendedor();
                 EntidadVendedor Vendedor = new EntidadVendedor();
 
-                Vendedor = objLogica.Login(LoginUser.UserName, LoginUser.Password);
+                Vendedor = objLogica.Login(UserName.Text.Trim(), Password.Text.Trim());
                 if (Vendedor.ApellidoMaterno == null)
                 {
-                    lblMensaje.Text = "Usuario no existe";
-                    LoginUser.FailureText = "Usuario no existe";
+                    lblMensaje.Text = "Usuario no existe";                    
                 }
                 else
                 {
+                    Session.Add("CodVendedor", Vendedor.CodVendedor);
                     Session.Add("Usuario", Vendedor.Usuario); 
                     Response.Redirect("../VentaArmas.aspx", false);
                 }

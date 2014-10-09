@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="99b0aa9c-c3cf-4d58-9ff7-1363d5fc44fc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/ServicioTiendaRest/WcfTiendaServRest.Tienda.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Tienda.wsdl" MetadataType="Wsdl" ID="951cb627-4b7f-4722-aac2-c8110f510a9b" SourceId="1" SourceUrl="http://rramos-pc/ServicioTiendaRest/WcfTiendaServRest.Tienda.svc?wsdl" />
+    <MetadataFile FileName="WcfTiendaServRest.disco" MetadataType="Disco" ID="dd07a2b7-b540-4ae9-b30f-32be53f45b67" SourceId="1" SourceUrl="http://rramos-pc/ServicioTiendaRest/WcfTiendaServRest.Tienda.svc?disco" />
+    <MetadataFile FileName="WcfTiendaServRest.xsd" MetadataType="Schema" ID="7d34819d-7f43-45c9-8893-20f111965e2a" SourceId="1" SourceUrl="http://rramos-pc/ServicioTiendaRest/WcfTiendaServRest.Tienda.svc?xsd=xsd1" />
+    <MetadataFile FileName="WcfTiendaServRest1.xsd" MetadataType="Schema" ID="39363f06-e213-48bf-ae15-4a052ed505d4" SourceId="1" SourceUrl="http://rramos-pc/ServicioTiendaRest/WcfTiendaServRest.Tienda.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

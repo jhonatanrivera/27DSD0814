@@ -17,8 +17,8 @@
     @Html.AntiForgeryToken()
     @Html.ValidationSummary(true)
     @Html.Hidden("hdEstadoJudicial", Model.DatosAntecedentes.EstadoJudicial, new { id = "hdEstadoJudicial" })
-    @Html.Hidden("hdEstadoPolicial", Model.DatosAntecedentes.EstadoJudicial, new { id = "hdEstadoPolicial" })
-    @Html.Hidden("hdEstadoPenal", Model.DatosAntecedentes.EstadoJudicial, new { id = "hdEstadoPenal" })
+    @Html.Hidden("hdEstadoPolicial", Model.DatosAntecedentes.EstadoPolicial, new { id = "hdEstadoPolicial" })
+    @Html.Hidden("hdEstadoPenal", Model.DatosAntecedentes.EstadoPenal, new { id = "hdEstadoPenal" })
     @Html.HiddenFor(m => m.DatosAntecedentes.CodigoPolicial, new { id = "hdCodigoPolicial" })
     @Html.HiddenFor(m => m.DatosAntecedentes.CodigoJudicial, new { id = "hdCodigoJudicial" })
     @Html.HiddenFor(m => m.DatosAntecedentes.CodigoPenal, new { id = "hdCodigoPenal" })   
@@ -146,6 +146,9 @@
     @Scripts.Render("~/bundles/jqueryval")
 <script type="text/javascript">
     $(document).ready(function () {
+        /*window.alert($("#hdEstadoJudicial").val())
+        window.alert($("#hdEstadoPolicial").val())
+        window.alert($("#hdEstadoPenal").val())*/
         if ($("#hdEstadoJudicial").val() == "No" && $("#hdEstadoPolicial").val() == "No" && $("#hdEstadoPenal").val() == "No") {
             $("#Rechazar").prop('disabled', true);
             $("#DarConformidad").prop('disabled', false);

@@ -1,0 +1,15 @@
+<publishData>
+  <publishTarget publishUrl="C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\CompiladoWebServiceSucamec\">
+    <file relUrl="bin/WcfSucamec.pdb" publishTime="10/07/2014 18:00:02" />
+    <file relUrl="bin/WcfSucamec.dll" publishTime="10/07/2014 18:00:02" />
+    <file relUrl="bin/Entidades.pdb" publishTime="10/07/2014 17:59:58" />
+    <file relUrl="bin/Entidades.dll" publishTime="10/07/2014 17:59:58" />
+    <file relUrl="Web.config" publishTime="10/07/2014 17:25:42" />
+    <file relUrl="bin/AccesoDatos.pdb" publishTime="10/07/2014 17:59:59" />
+    <file relUrl="bin/AccesoDatos.dll" publishTime="10/07/2014 17:59:59" />
+    <file relUrl="WcfSucamec.Sucamec.svc" publishTime="10/07/2014 18:01:18" />
+    <file relUrl="bin/WcfSucamec.dll.config" publishTime="10/07/2014 17:25:42" />
+    <file relUrl="bin/LogicaNegocios.pdb" publishTime="10/07/2014 17:59:59" />
+    <file relUrl="bin/LogicaNegocios.dll" publishTime="10/07/2014 17:59:59" />
+  </publishTarget>
+</publishData>

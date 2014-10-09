@@ -100,5 +100,37 @@ namespace AccesoDatos
             return Licencia;
 
         }
+
+        public int RegistraTramite(int TipoTramite, int CodTienda, string Tienda, int CodSolicitud, string DNI,
+                                   string SerieArma, int Estado, string Nombres, string ApellidoPaterno, string ApellidoMaterno,
+                                   string Sexo, string Email, string Celular, string Direccion)
+        {
+            int intResultado = 0;
+            string strCadenaConexion = DevuelveConexion();
+            SqlConnection con = new SqlConnection(strCadenaConexion);
+            SqlCommand com = new SqlCommand("RegistraTramite", con);
+            com.Parameters.Add(new SqlParameter("TipoTramite", TipoTramite));
+            com.Parameters.Add(new SqlParameter("CodTienda", CodTienda));
+            com.Parameters.Add(new SqlParameter("Tienda", Tienda));
+            com.Parameters.Add(new SqlParameter("CodSolicitud", CodSolicitud));
+            com.Parameters.Add(new SqlParameter("DNI", DNI));
+            com.Parameters.Add(new SqlParameter("SerieArma", SerieArma));
+            com.Parameters.Add(new SqlParameter("Estado", Estado));
+            com.Parameters.Add(new SqlParameter("Nombres", Nombres));
+            com.Parameters.Add(new SqlParameter("ApellidoPaterno", ApellidoPaterno));
+            com.Parameters.Add(new SqlParameter("ApellidoMaterno", ApellidoMaterno));
+            com.Parameters.Add(new SqlParameter("Sexo", Sexo));
+            com.Parameters.Add(new SqlParameter("Email", Email));
+            com.Parameters.Add(new SqlParameter("Celular", Celular));
+            com.Parameters.Add(new SqlParameter("Direccion", Direccion));
+
+            com.CommandType = System.Data.CommandType.StoredProcedure;
+
+            con.Open();
+            intResultado = com.ExecuteNonQuery();
+            con.Close();
+
+            return intResultado;
+        }
     }
 }

@@ -8,6 +8,7 @@ using LogicaNegocios;
 using Recursos;
 using Entidades;
 using System.Reflection;
+using System.Messaging;
 
 namespace WebSucamec.Controllers
 {
@@ -157,7 +158,7 @@ namespace WebSucamec.Controllers
             string CodigoPenal = string.Empty;            
             string EstadoPolicial = string.Empty;
             string CodigoPolicial = string.Empty;
-            int intResultado = 0;
+            string NumeroLicencia = string.Empty;
 
             List<EntidadAntecedente> ListadoAntecedentes = new List<EntidadAntecedente>();
             ServicioAntecedentes.AntecedentesClient objServicios = new ServicioAntecedentes.AntecedentesClient();
@@ -184,14 +185,34 @@ namespace WebSucamec.Controllers
                     }
                 }
 
-            intResultado = objLogicaLicencia.RegistraLicencia(int.Parse(model.DatosLicenciaPorTramitar.CodTramite.ToString()),
+            NumeroLicencia = objLogicaLicencia.RegistraLicencia(int.Parse(model.DatosLicenciaPorTramitar.CodTramite.ToString()),
                                                                                    (int)Enumeraciones.EstadosLicencia.Vigente, 
                                                                                    (int)Enumeraciones.EstadosTramite.Aceptado,
                                                                                    EstadoPolicial, CodigoPolicial, EstadoJudicial,
                                                                                    CodigoJudicial, EstadoPenal, CodigoPenal);
-            
-            if (intResultado == -1)
+
+            if (NumeroLicencia.Length > 0)
             {
+                //Envia a cola
+                string strRutaCola = @".\private$\Sucamec";
+                if (!MessageQueue.Exists(strRutaCola))
+                    MessageQueue.Create(strRutaCola);
+                MessageQueue cola = new MessageQueue(strRutaCola);
+                Message mensaje = new Message();
+                mensaje.Label = "Nueva licencia";
+                mensaje.Body = new EntidadLicencia() {
+                    intEstadoLicencia = (int)Enumeraciones.EstadosTramite.Aceptado, 
+                    strFechaRespuesta = DateTime.Now.Date.ToShortDateString(), 
+                    intCodSucamec = int.Parse(model.DatosLicenciaPorTramitar.CodTramite.ToString()),
+                    intCodSolicitud = int.Parse(model.DatosLicenciaPorTramitar.CodSolicitud.ToString()),
+                    strNumeroLicencia = NumeroLicencia,
+                    strEstadoAntecedentePolicial = EstadoPolicial,
+                    strEstadoAntecedenteJudicial = EstadoJudicial,
+                    strEstadoAntecedentePenal = EstadoPenal
+                    };
+                cola.Send(mensaje);
+
+
                 TempData["MensajeTramite"] = "El trámite se realizo satisfactoriamente";
             }
             else
@@ -244,8 +265,7 @@ namespace WebSucamec.Controllers
                 }
             }
 
-            intResultado = objLogicaLicencia.RegistraLicencia(int.Parse(model.DatosLicenciaPorTramitar.CodTramite.ToString()),
-                                                                                   (int)Enumeraciones.EstadosLicencia.Rechazado,
+            intResultado = objLogicaLicencia.RechazarLicencia(int.Parse(model.DatosLicenciaPorTramitar.CodTramite.ToString()),                                                                                   
                                                                                    (int)Enumeraciones.EstadosTramite.Rechazado,
                                                                                    EstadoPolicial, CodigoPolicial, EstadoJudicial,
                                                                                    CodigoJudicial, EstadoPenal, CodigoPenal);

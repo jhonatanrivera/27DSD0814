@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicaNegocios", "..\Logica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursos", "..\Recursos\Recursos.csproj", "{AF9FEC53-BCF0-4B2C-B9B7-8BF16467DE3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfTiendaServRest", "..\..\..\..\TIENDANET\WcfTiendaServRest\WcfTiendaServRest.csproj", "{E4BD55FB-8C69-4598-84EA-7D8A70D0ADE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{AF9FEC53-BCF0-4B2C-B9B7-8BF16467DE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF9FEC53-BCF0-4B2C-B9B7-8BF16467DE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF9FEC53-BCF0-4B2C-B9B7-8BF16467DE3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4BD55FB-8C69-4598-84EA-7D8A70D0ADE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4BD55FB-8C69-4598-84EA-7D8A70D0ADE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4BD55FB-8C69-4598-84EA-7D8A70D0ADE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4BD55FB-8C69-4598-84EA-7D8A70D0ADE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,3 +12,7 @@ C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo F
 C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Entidades\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Entidades\obj\Debug\Entidades.dll
 C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Entidades\obj\Debug\Entidades.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Entidades\bin\Debug\Entidades.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Entidades\bin\Debug\Entidades.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Entidades\obj\Debug\Entidades.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Entidades\obj\Debug\Entidades.pdb

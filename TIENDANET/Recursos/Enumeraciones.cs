@@ -10,8 +10,12 @@ namespace Recursos
         public enum Estados
         {
             Pendiente = 1,            
-            Vendido = 2,
-            Tramitado = 3
+            Tramitado = 2,
+            AceptadoSucamec = 3,
+            RechazadoSucamec = 4,
+            AceptadoTienda = 5,
+            RechazadoTienda = 6
+
         }
     }
 }

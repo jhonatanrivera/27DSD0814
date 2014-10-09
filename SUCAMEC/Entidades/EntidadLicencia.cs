@@ -19,6 +19,11 @@ namespace Entidades
         public string strCodigoAntecedenteJudicial { get; set; }
         public string strEstadoAntecedentePenal { get; set; }
         public string strCodigoAntecedentePenal { get; set; }
+        public string strFechaRespuesta { get; set; }
+        public int intCodSucamec { get; set; }
+        public int intCodSolicitud { get; set; }
+        public string strNumeroLicencia { get; set; }
+
 
     }
 }

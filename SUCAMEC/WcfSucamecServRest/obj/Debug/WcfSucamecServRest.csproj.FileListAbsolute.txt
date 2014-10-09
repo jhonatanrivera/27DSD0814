@@ -1,0 +1,12 @@
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfSucamecServRest\bin\Debug\WcfSucamecServRest.dll.config
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfSucamecServRest\bin\Debug\WcfSucamecServRest.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfSucamecServRest\bin\Debug\WcfSucamecServRest.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfSucamecServRest\bin\Debug\Entidades.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfSucamecServRest\bin\Debug\LogicaNegocios.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfSucamecServRest\bin\Debug\AccesoDatos.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfSucamecServRest\bin\Debug\Entidades.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfSucamecServRest\bin\Debug\LogicaNegocios.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfSucamecServRest\bin\Debug\AccesoDatos.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfSucamecServRest\obj\Debug\WcfSucamecServRest.csprojResolveAssemblyReference.cache
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfSucamecServRest\obj\Debug\WcfSucamecServRest.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\WcfSucamecServRest\obj\Debug\WcfSucamecServRest.pdb

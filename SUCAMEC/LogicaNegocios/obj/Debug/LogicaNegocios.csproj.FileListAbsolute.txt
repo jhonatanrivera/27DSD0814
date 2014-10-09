@@ -25,3 +25,12 @@ C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo F
 C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\LogicaNegocios\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\LogicaNegocios\obj\Debug\LogicaNegocios.dll
 C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\LogicaNegocios\obj\Debug\LogicaNegocios.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\LogicaNegocios\bin\Debug\LogicaNegocios.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\LogicaNegocios\bin\Debug\LogicaNegocios.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\LogicaNegocios\bin\Debug\AccesoDatos.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\LogicaNegocios\bin\Debug\Entidades.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\LogicaNegocios\bin\Debug\AccesoDatos.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\LogicaNegocios\bin\Debug\Entidades.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\LogicaNegocios\obj\Debug\LogicaNegocios.csprojResolveAssemblyReference.cache
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\LogicaNegocios\obj\Debug\LogicaNegocios.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\LogicaNegocios\obj\Debug\LogicaNegocios.pdb

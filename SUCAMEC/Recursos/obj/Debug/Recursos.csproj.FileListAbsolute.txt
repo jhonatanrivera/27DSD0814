@@ -3,3 +3,7 @@ C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo F
 C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Recursos\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Recursos\obj\Debug\Recursos.dll
 C:\Documents and Settings\rramosg\Escritorio\UPC\Sistemas Distribuidos\Trabajo Final\SUCAMEC\Recursos\obj\Debug\Recursos.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Recursos\bin\Debug\Recursos.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Recursos\bin\Debug\Recursos.pdb
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Recursos\obj\Debug\Recursos.dll
+D:\UPC\Sistemas Distribuidos\Trabajo Final\SistemasDistribuidos07102014\SUCAMEC\Recursos\obj\Debug\Recursos.pdb

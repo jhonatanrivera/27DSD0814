@@ -10,14 +10,8 @@
     <p>
         Especifique su nombre de usuario y contraseña.        
     </p>
-    <asp:Login ID="LoginUser" runat="server" EnableViewState="false" RenderOuterTable="false">
-        <LayoutTemplate>
-            <span class="failureNotification">
-                <asp:Literal ID="FailureText" runat="server"></asp:Literal>
-            </span>
-            <asp:ValidationSummary ID="LoginUserValidationSummary" runat="server" CssClass="failureNotification" 
-                 ValidationGroup="LoginUserValidationGroup"/>
-            <div class="accountInfo">
+
+    <div class="accountInfo">
                 <fieldset class="login">
                     <legend>Información de cuenta</legend>
                     <p>
@@ -41,9 +35,11 @@
                         onclick="LoginButton_Click"/>
                 </p>
             </div>
-        </LayoutTemplate>
-        
-    </asp:Login>
+             <asp:ValidationSummary ID="LoginUserValidationSummary" runat="server" CssClass="failureNotification" 
+                 ValidationGroup="LoginUserValidationGroup"/>
+
+
+    
 
     <asp:Label ID="lblMensaje" runat="server" ForeColor="#FF3300" 
                         Font-Bold="True"></asp:Label> 
