@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+     <head>
+         <title>Login - Gun Shop</title>
+        <link rel="stylesheet" href="Styles/styles.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+        <script src="Styles/script.js"></script>
+    </head>
+    
+<body>
+
+<h:form prependId="false">
+    
+         <h3>Please enter your name and password.</h3>
+         <table>
+            <tr>
+               <td>Name:</td>
+               <td><h:inputText value="#{user.name}" id="name"/></td>
+            </tr>
+            <tr>
+               <td>Password:</td>
+               <td><h:inputSecret value="#{user.password}" id="password"/></td>
+            </tr>
+         </table>
+         <p><h:commandButton value="Login">
+            <f:ajax execute="name password" render="out"/>
+         </h:commandButton></p>
+         <h3><h:outputText id="out" value="#{user.greeting}"/></h3>
+      </h:form>
+</body>
+</html>

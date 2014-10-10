@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+            <h:outputText value="#{bundle.ListVentaTitle}"></h:outputText>
+            <h:form styleClass="jsfcrud_list_form">
+                <h:panelGroup id="messagePanel" layout="block">
+                    <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+                </h:panelGroup>
+                <h:outputText escape="false" value="#{bundle.ListVentaEmpty}" rendered="#{ventaController.items.rowCount == 0}"/>
+                <h:panelGroup rendered="#{ventaController.items.rowCount > 0}">
+                    <h:outputText value="#{ventaController.pagination.pageFirstItem + 1}..#{ventaController.pagination.pageLastItem + 1}/#{ventaController.pagination.itemsCount}"/>&nbsp;
+                    <h:commandLink action="#{ventaController.previous}" value="#{bundle.Previous} #{ventaController.pagination.pageSize}" rendered="#{ventaController.pagination.hasPreviousPage}"/>&nbsp;
+                    <h:commandLink action="#{ventaController.next}" value="#{bundle.Next} #{ventaController.pagination.pageSize}" rendered="#{ventaController.pagination.hasNextPage}"/>&nbsp;
+                    <h:dataTable value="#{ventaController.items}" var="item" border="0" cellpadding="2" cellspacing="0" rowClasses="jsfcrud_odd_row,jsfcrud_even_row" rules="all" style="border:solid 1px">
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListVentaTitle_codRegistro}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.codRegistro}"/>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListVentaTitle_tipoPago}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.tipoPago}"/>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListVentaTitle_feRegistro}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.feRegistro}">
+                                <f:convertDateTime pattern="MM/dd/yyyy HH:mm:ss" />
+                            </h:outputText>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListVentaTitle_estado}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.estado}"/>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListVentaTitle_feRespuesta}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.feRespuesta}">
+                                <f:convertDateTime pattern="MM/dd/yyyy HH:mm:ss" />
+                            </h:outputText>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListVentaTitle_codSucamec}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.codSucamec}"/>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListVentaTitle_nroLicencia}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.nroLicencia}"/>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListVentaTitle_feEntrega}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.feEntrega}">
+                                <f:convertDateTime pattern="MM/dd/yyyy HH:mm:ss" />
+                            </h:outputText>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListVentaTitle_codUsuario}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.codUsuario}"/>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListVentaTitle_serieArma}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.serieArma}"/>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="&nbsp;"/>
+                            </f:facet>
+                            <h:commandLink action="#{ventaController.prepareView}" value="#{bundle.ListVentaViewLink}"/>
+                            <h:outputText value=" "/>
+                            <h:commandLink action="#{ventaController.prepareEdit}" value="#{bundle.ListVentaEditLink}"/>
+                            <h:outputText value=" "/>
+                            <h:commandLink action="#{ventaController.destroy}" value="#{bundle.ListVentaDestroyLink}"/>
+                        </h:column>
+                    </h:dataTable>
+                </h:panelGroup>
+                <br />
+                <h:commandLink action="#{ventaController.prepareCreate}" value="#{bundle.ListVentaCreateLink}"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundle.ListVentaIndexLink}"/>
+            </h:form>
+   
+</html>

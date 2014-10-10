@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.CreateVentaTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="#{bundle.CreateVentaLabel_codRegistro}" for="codRegistro" />
+                    <h:inputText id="codRegistro" value="#{ventaController.selected.codRegistro}" title="#{bundle.CreateVentaTitle_codRegistro}" required="true" requiredMessage="#{bundle.CreateVentaRequiredMessage_codRegistro}"/>
+                    <h:outputLabel value="#{bundle.CreateVentaLabel_tipoPago}" for="tipoPago" />
+                    <h:inputText id="tipoPago" value="#{ventaController.selected.tipoPago}" title="#{bundle.CreateVentaTitle_tipoPago}" />
+                    <h:outputLabel value="#{bundle.CreateVentaLabel_feRegistro}" for="feRegistro" />
+                    <h:inputText id="feRegistro" value="#{ventaController.selected.feRegistro}" title="#{bundle.CreateVentaTitle_feRegistro}" >
+                        <f:convertDateTime pattern="MM/dd/yyyy HH:mm:ss" />
+                    </h:inputText>
+                    <h:outputLabel value="#{bundle.CreateVentaLabel_estado}" for="estado" />
+                    <h:inputText id="estado" value="#{ventaController.selected.estado}" title="#{bundle.CreateVentaTitle_estado}" />
+                    <h:outputLabel value="#{bundle.CreateVentaLabel_feRespuesta}" for="feRespuesta" />
+                    <h:inputText id="feRespuesta" value="#{ventaController.selected.feRespuesta}" title="#{bundle.CreateVentaTitle_feRespuesta}" >
+                        <f:convertDateTime pattern="MM/dd/yyyy HH:mm:ss" />
+                    </h:inputText>
+                    <h:outputLabel value="#{bundle.CreateVentaLabel_codSucamec}" for="codSucamec" />
+                    <h:inputText id="codSucamec" value="#{ventaController.selected.codSucamec}" title="#{bundle.CreateVentaTitle_codSucamec}" />
+                    <h:outputLabel value="#{bundle.CreateVentaLabel_nroLicencia}" for="nroLicencia" />
+                    <h:inputText id="nroLicencia" value="#{ventaController.selected.nroLicencia}" title="#{bundle.CreateVentaTitle_nroLicencia}" />
+                    <h:outputLabel value="#{bundle.CreateVentaLabel_feEntrega}" for="feEntrega" />
+                    <h:inputText id="feEntrega" value="#{ventaController.selected.feEntrega}" title="#{bundle.CreateVentaTitle_feEntrega}" >
+                        <f:convertDateTime pattern="MM/dd/yyyy HH:mm:ss" />
+                    </h:inputText>
+                    <h:outputLabel value="#{bundle.CreateVentaLabel_codUsuario}" for="codUsuario" />
+                    <h:selectOneMenu id="codUsuario" value="#{ventaController.selected.codUsuario}" title="#{bundle.CreateVentaTitle_codUsuario}" >
+                        <f:selectItems value="#{usuarioController.itemsAvailableSelectOne}"/>
+                    </h:selectOneMenu>
+                    <h:outputLabel value="#{bundle.CreateVentaLabel_serieArma}" for="serieArma" />
+                    <h:selectOneMenu id="serieArma" value="#{ventaController.selected.serieArma}" title="#{bundle.CreateVentaTitle_serieArma}" >
+                        <f:selectItems value="#{armaController.itemsAvailableSelectOne}"/>
+                    </h:selectOneMenu>
+                </h:panelGrid>
+                <br />
+                <h:commandLink action="#{ventaController.create}" value="#{bundle.CreateVentaSaveLink}" />
+                <br />
+                <br />
+                <h:commandLink action="#{ventaController.prepareList}" value="#{bundle.CreateVentaShowAllLink}" immediate="true"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundle.CreateVentaIndexLink}"/>
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>

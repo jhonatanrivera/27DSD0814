@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.CreateArmaTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="#{bundle.CreateArmaLabel_serieArma}" for="serieArma" />
+                    <h:inputText id="serieArma" value="#{armaController.selected.serieArma}" title="#{bundle.CreateArmaTitle_serieArma}" required="true" requiredMessage="#{bundle.CreateArmaRequiredMessage_serieArma}"/>
+                    <h:outputLabel value="#{bundle.CreateArmaLabel_descripcion}" for="descripcion" />
+                    <h:inputText id="descripcion" value="#{armaController.selected.descripcion}" title="#{bundle.CreateArmaTitle_descripcion}" />
+                    <h:outputLabel value="#{bundle.CreateArmaLabel_caracteristicas}" for="caracteristicas" />
+                    <h:inputText id="caracteristicas" value="#{armaController.selected.caracteristicas}" title="#{bundle.CreateArmaTitle_caracteristicas}" />
+                    <h:outputLabel value="#{bundle.CreateArmaLabel_marca}" for="marca" />
+                    <h:inputText id="marca" value="#{armaController.selected.marca}" title="#{bundle.CreateArmaTitle_marca}" />
+                    <h:outputLabel value="#{bundle.CreateArmaLabel_precio}" for="precio" />
+                    <h:inputText id="precio" value="#{armaController.selected.precio}" title="#{bundle.CreateArmaTitle_precio}" />
+                    <h:outputLabel value="#{bundle.CreateArmaLabel_categoria}" for="categoria" />
+                    <h:inputText id="categoria" value="#{armaController.selected.categoria}" title="#{bundle.CreateArmaTitle_categoria}" />
+                    <h:outputLabel value="#{bundle.CreateArmaLabel_autorizacion}" for="autorizacion" />
+                    <h:inputText id="autorizacion" value="#{armaController.selected.autorizacion}" title="#{bundle.CreateArmaTitle_autorizacion}" />
+                    <h:outputLabel value="#{bundle.CreateArmaLabel_urlImagen}" for="urlImagen" />
+                    <h:inputText id="urlImagen" value="#{armaController.selected.urlImagen}" title="#{bundle.CreateArmaTitle_urlImagen}" />
+                    <h:outputLabel value="#{bundle.CreateArmaLabel_feIngreso}" for="feIngreso" />
+                    <h:inputText id="feIngreso" value="#{armaController.selected.feIngreso}" title="#{bundle.CreateArmaTitle_feIngreso}" >
+                        <f:convertDateTime pattern="MM/dd/yyyy HH:mm:ss" />
+                    </h:inputText>
+                </h:panelGrid>
+                <br />
+                <h:commandLink action="#{armaController.create}" value="#{bundle.CreateArmaSaveLink}" />
+                <br />
+                <br />
+                <h:commandLink action="#{armaController.prepareList}" value="#{bundle.CreateArmaShowAllLink}" immediate="true"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundle.CreateArmaIndexLink}"/>
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>
